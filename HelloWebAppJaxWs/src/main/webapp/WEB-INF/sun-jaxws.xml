@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint name="EmployeeServiceImpl" implementation="com.service.jaxws.empservice.EmployeeServiceImpl"
+              url-pattern="/employeeServiceWS"/>
+</endpoints>
+
+<!--
+    http://localhost:8181/HelloWebAppJaxWs_war_exploded/employeeServiceWS?wsdl
+ -->
