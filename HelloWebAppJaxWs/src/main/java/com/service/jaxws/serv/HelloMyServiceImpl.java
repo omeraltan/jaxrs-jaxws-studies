@@ -1,6 +1,5 @@
 package com.service.jaxws.serv;
 
-import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
 
 // full name verilmesi gerekmektedir.
