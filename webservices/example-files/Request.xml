@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<GetCourseDetailsRequest xmlns="http://webservices.soap.omer.com"
-                         xsi:schemaLocation="http://webservices.soap.omer.com course-details.xsd"
+<GetCourseDetailsRequest xmlns="http://soap.omer.com/webservices"
+                         xsi:schemaLocation="http://soap.omer.com/webservices course-details.xsd"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >
     <id>123</id> <!-- numbers -->
