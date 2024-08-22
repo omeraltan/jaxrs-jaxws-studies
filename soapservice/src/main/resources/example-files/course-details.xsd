@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://soap.omer.com/webservices"
-        xmlns:tns="http://soap.omer.com/webservices"
+        targetNamespace="http://omer.com/soapservice"
+        xmlns:tns="http://omer.com/soapservice"
         elementFormDefault="qualified">
 
     <xs:element name="GetCourseDetailsRequest">
@@ -19,6 +19,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
     <xs:complexType name="CourseDetails">
         <xs:sequence>
             <xs:element name="id" type="xs:int"/>
@@ -26,6 +27,7 @@
             <xs:element name="description" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
+
 </xs:schema>
 
     <!--
