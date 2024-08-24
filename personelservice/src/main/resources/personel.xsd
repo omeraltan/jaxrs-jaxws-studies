@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.example.com/personelservice"
+           targetNamespace="http://www.example.com/personelservice"
+           elementFormDefault="qualified">
+
+    <!-- Defining the Person element -->
+    <xs:element name="Person" type="PersonType"/>
+
+    <!-- Defining the complex type for Person -->
+    <xs:complexType name="PersonType">
+        <xs:sequence>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="age" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
